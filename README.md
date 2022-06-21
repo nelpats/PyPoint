@@ -1,5 +1,5 @@
 # PyPoint
-PyPoint is a Python library which allows you to encrypt values at Runtime and prevent memory hacking modification using XOR encryption and pickle
+PyPoint is a Python library which allows you to encrypt values at runtime and prevent illegal modifications trough memory using XOR encryption and pickle
 
 
 ### Some precisions
