@@ -18,15 +18,22 @@ from PyPoint.Values import Pvalues
 ## A basic example
 
 ```py
+from PyPoint.Values import Pvalue
+
 class Msg:
     message : str
     def __init__(self, message) -> None:
         self.message = message
 
 if __name__ == "__main__":
-    pMessage = Pvalue(Msg("My message"))
+    # You can also protect the Object itself, in that case, the properties of this object won't be protected.
+    pMessage = Msg(Pvalue("Protected message"))
+    
+    print(pMessage.message.value)
 
-    print(pMessage.value.message)
+    pMessage.message.value = "New message"
+
+
 ```
 
 
