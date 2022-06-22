@@ -36,13 +36,6 @@ if __name__ == "__main__":
 
 ```
 
-## Tests
 
-Modifying the value trough memory:
-[!ex1](https://prnt.sc/yOFMzcdhPdMW)
-
-
-The modification results in a ``IllegalValueModification`` exception.
-[!ex2](https://prnt.sc/NlkMZogV0NJ8)
 
 
